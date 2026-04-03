@@ -1,0 +1,45 @@
+.main-header {
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+
+    li a {
+      text-decoration: none;
+      color: #fdd835;
+      font-weight: 600;
+      position: relative;
+    }
+
+    li a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 0%;
+      height: 2px;
+      background-color: #fdd835;
+      transition: 0.3s ease-in-out;
+    }
+
+    li a:hover::after {
+      width: 100%;
+    }
+  }
+}

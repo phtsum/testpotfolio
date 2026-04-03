@@ -1,0 +1,35 @@
+.about-section {
+  background: url("/abubeker3.jpg") center/cover no-repeat;
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.text-box {
+  max-width: 900px;
+  padding: 2rem;
+  border-radius: 12px;
+  background: transparent; // no overlay
+  color: rgba(255, 255, 255, 0.4); // dimmed text initially
+
+  transition: color 0.3s ease;
+
+  h2 {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.5); // dimmed heading
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  &:hover h2,
+  &:hover p {
+    color: white; // 🔥 bright white on hover
+  }
+}

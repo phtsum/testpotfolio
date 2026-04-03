@@ -1,0 +1,57 @@
+$yellow: #fdd835;
+$black: #121212;
+$white: #ffffff;
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: $black;
+  color: $white;
+}
+
+a {
+  color: $yellow;
+  text-decoration: none;
+}
+
+.header {
+  background-color: $yellow;
+  color: $black;
+  padding: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.section {
+  padding: 3rem 1.5rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  img {
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    border: 4px solid $yellow;
+  }
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .stat-box {
+    background: $yellow;
+    color: $black;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 12px;
+    text-align: center;
+    width: 120px;
+  }
+}

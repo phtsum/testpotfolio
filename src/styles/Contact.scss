@@ -1,0 +1,54 @@
+.contact-section {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+
+  .contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fdd835;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+
+  .contact-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+    color: #ddd;
+    font-weight: 400;
+  }
+
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.15rem;
+
+    li {
+      margin: 1.25rem 0;
+
+      a {
+        color: #fdd835;
+        font-weight: 600;
+        text-decoration: none;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 300;
+  }
+}
